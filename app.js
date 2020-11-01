@@ -1,6 +1,6 @@
-const Manager = require("./lib/manager");
-const Engineer = require("./lib/engineer");
-const Intern = require("./lib/intern");
+const manager = require("./lib/manager");
+const engineer = require("./lib/engineer");
+const inter = require("./lib/inter");
 const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
@@ -22,111 +22,111 @@ function createNewEmployee() {
         name: "new",
         message: "Do you want to create a new employee? If so, choose type.",
         choices: [
-            "Manager",
-            "Engineer",
-            "Intern",
+            "manager",
+            "engineer",
+            "inter",
             "No"
         ]
     }]).then(function(data) {
         if (data.new === "No") {
             writeFile();
-        } else if (data.new === "Manager") {
-            createManager();
-        } else if (data.new === "Engineer") {
-            createEngineer();
+        } else if (data.new === "manager") {
+            createmanager();
+        } else if (data.new === "engineer") {
+            createengineer();
         } else {
-            createIntern();
+            createinter();
         }
     });
 }
 
-function createManager() {
-    console.log("Creating Manager");
+function createmanager() {
+    console.log("Creating manager");
     inquirer.prompt([{
             type: "input",
             name: "name",
-            message: "What is the Manager's name?"
+            message: "What is the manager's name?"
         },
         {
             type: "number",
             name: "id",
-            message: "What is the Manager's ID number?"
+            message: "What is the manager's ID number?"
         },
         {
             type: "input",
             name: "email",
-            message: "What is the Manager's email address?"
+            message: "What is the manager's email address?"
         },
         {
             type: "input",
             name: "office",
-            message: "What is the Manager's office number?"
+            message: "What is the manager's office number?"
         }
     ]).then(function(data) {
 
-        const employee = new Manager(data.name, data.id, data.email, data.office);
+        const employee = new manager(data.name, data.id, data.email, data.office);
         teamArray.push(employee);
         createNewEmployee();
 
     });
 }
 
-function createEngineer() {
-    console.log("Creating Engineer");
+function createengineer() {
+    console.log("Creating engineer");
     inquirer.prompt([{
             type: "input",
             name: "name",
-            message: "What is the Engineer's name?"
+            message: "What is the engineer's name?"
         },
         {
             type: "number",
             name: "id",
-            message: "What is the Engineer's ID number?"
+            message: "What is the engineer's ID number?"
         },
         {
             type: "input",
             name: "email",
-            message: "What is the Engineer's email address?"
+            message: "What is the engineer's email address?"
         },
         {
             type: "input",
             name: "github",
-            message: "What is the Engineer's GitHub username?"
+            message: "What is the engineer's GitHub username?"
         }
     ]).then(function(data) {
 
-        const employee = new Engineer(data.name, data.id, data.email, data.github);
+        const employee = new engineer(data.name, data.id, data.email, data.github);
         teamArray.push(employee);
         createNewEmployee();
 
     });
 }
 
-function createIntern() {
-    console.log("Creating Intern");
+function createinter() {
+    console.log("Creating inter");
     inquirer.prompt([{
             type: "input",
             name: "name",
-            message: "What is the Intern's name?"
+            message: "What is the inter's name?"
         },
         {
             type: "number",
             name: "id",
-            message: "What is the Intern's ID number?"
+            message: "What is the inter's ID number?"
         },
         {
             type: "input",
             name: "email",
-            message: "What is the Intern's email address?"
+            message: "What is the inter's email address?"
         },
         {
             type: "input",
             name: "school",
-            message: "Which school is the Intern currently enrolled?"
+            message: "Which school is the inter currently enrolled?"
         }
     ]).then(function(data) {
 
-        const employee = new Intern(data.name, data.id, data.email, data.school);
+        const employee = new inter(data.name, data.id, data.email, data.school);
         teamArray.push(employee);
         createNewEmployee();
 
