@@ -1,0 +1,28 @@
+{
+  "name": "homework_template_engine_employee_summary",
+  "version": "1.0.0",
+  "description": "An employee summaryt created via command line OOP along with testing",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheyCallMeMattyD/template-engine-employee-summary.git"
+  },
+  "keywords": [
+    "test",
+    "oop",
+    "javascript"
+  ],
+  "author": "Matthew Daniels",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheyCallMeMattyD/template-engine-employee-summary/issues"
+  },
+  "homepage": "https://github.com/TheyCallMeMattyD/template-engine-employee-summary#readme"
+}
