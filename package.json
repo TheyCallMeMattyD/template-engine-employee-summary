@@ -24,5 +24,13 @@
   "bugs": {
     "url": "https://github.com/TheyCallMeMattyD/template-engine-employee-summary/issues"
   },
-  "homepage": "https://github.com/TheyCallMeMattyD/template-engine-employee-summary#readme"
+  "homepage": "https://github.com/TheyCallMeMattyD/template-engine-employee-summary#readme",
+  "dependencies": {
+    "engineer": "^0.1.1",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.3.3",
+    "intern": "^4.8.8",
+    "manager": "^1.0.9",
+    "path": "^0.12.7"
+  }
 }
