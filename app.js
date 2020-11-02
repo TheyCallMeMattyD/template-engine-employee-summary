@@ -24,7 +24,7 @@ function createNewEmployee() {
         choices: [
             "manager",
             "engineer",
-            "inter",
+            "intern",
             "No"
         ]
     }]).then(function(data) {
@@ -35,7 +35,7 @@ function createNewEmployee() {
         } else if (data.new === "engineer") {
             createengineer();
         } else {
-            createinter();
+            createintern();
         }
     });
 }
@@ -103,30 +103,30 @@ function createengineer() {
 }
 
 function createinter() {
-    console.log("Creating inter");
+    console.log("Creating intern");
     inquirer.prompt([{
             type: "input",
             name: "name",
-            message: "What is the inter's name?"
+            message: "What is the intern's name?"
         },
         {
             type: "number",
             name: "id",
-            message: "What is the inter's ID number?"
+            message: "What is the intern's ID number?"
         },
         {
             type: "input",
             name: "email",
-            message: "What is the inter's email address?"
+            message: "What is the intern's email address?"
         },
         {
             type: "input",
             name: "school",
-            message: "Which school is the inter currently enrolled?"
+            message: "Which school is the intern currently enrolled?"
         }
     ]).then(function(data) {
 
-        const employee = new inter(data.name, data.id, data.email, data.school);
+        const employee = new intern(data.name, data.id, data.email, data.school);
         teamArray.push(employee);
         createNewEmployee();
 

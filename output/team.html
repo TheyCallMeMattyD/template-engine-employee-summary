@@ -2,76 +2,42 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap CDNs -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <!-- Embedded Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="output/styles.css">
-    <!-- FontAwesome -->
-    <!-- <script src="https://kit.fontawesome.com/c502137733.js"></script> -->
-    <!-- Social Buttons Styles -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-
-    <title>Employee Summary</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Team Daniels</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="output/styles.css">
+    <script src="https://kit.fontawesome.com/c502137733.js"></script>
 </head>
 
 <body>
-    <!-- _________________________________ NAVBAR __________________________________ -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-        <div class="container">
-            <!-- Left Side -->
-            <a class="navbar-brand" href="index.html">
-                <h2>Matthew Daniels</h2>
-            </a>
-            <!-- GitHub Button -->
-            <a href="https://github.com/TheyCallMeMattyD" class="fa fa-github" target="_blank"></a>
-            <!-- LinkedIn Button -->
-            <a href="https://www.linkedin.com/in/themattyd" class="fa fa-linkedin" target="blank"></a>
-            <!-- Right Side -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-               </button>
-            <nav class="collapse navbar-collapse" id="navbarResponsive">
-                <!-- <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <button type="button hidden" class="btn btn-danger">Home
-                                   <span class="sr-only">(current)</span>
-                              </button>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="interests.html">Interests
-                              </a>
-                    </li>
-                </ul> -->
-            </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 jumbotron mb-3 team-heading bg-dark text-white">
+                <h1 class="text-center"><i class="fas fa-users mr-2"></i>My Team</h1>
+            </div>
         </div>
-    </nav>
-
-
-
-
-
-
-</body>
-
-
-<!-- ______________________________ FOOTER _________________________ -->
-<footer class="footer">
-    <div class="container" style="text-align: center">
-        Copyright &copy;
-        <script>
-            document.write(new Date().getFullYear());
-        </script>
-        | Rancho Relaxo Productions<br> 240-406-6584 | themattyd@outlook.com |
-        <a href="https://mattyd.info" target="_blank">mattyd.info</a> |
-        <a href="https://theycallmemattyd.github.io/updated-portfolio/" target="_blank">TheyCallMeMattyD.github.io</a>
     </div>
-</footer>
+    <div class="container">
+        <div class="row">
+            <div class="team-area col-12 d-flex justify-content-around">
+                <div class="card employee-card shadow-lg">
+    <div class="card-header bg-info text-white">
+        <h2 class="card-title">tom</h2>
+        <h3 class="card-title"><i class="fas fa-mug-hot mr-2"></i>manager</h3>
+    </div>
+    <div class="card-body bg-secondary">
+        <ul class="list-group">
+            <li class="list-group-item">ID: 1</li>
+            <li class="list-group-item">Email: <a href="mailto:tom@rancho.com">tom@rancho.com</a></li>
+            <li class="list-group-item">Office number: 240-406-6584</li>
+        </ul>
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+</body>
 
 </html>
