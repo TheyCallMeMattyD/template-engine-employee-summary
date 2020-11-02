@@ -102,7 +102,7 @@ function createengineer() {
     });
 }
 
-function createinter() {
+function createintern() {
     console.log("Creating intern");
     inquirer.prompt([{
             type: "input",
