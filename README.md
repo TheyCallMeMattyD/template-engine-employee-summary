@@ -20,7 +20,12 @@
   
 ## Installation
 >1. Be sure you've installed npm (node project manager) and node.js on your system.  
->2. On your terminal command line, enter 'npm i inquirer'. This will ensure the correct node_modules are installed. 
+>2. Ensure the follow dependencies are installed by entering the following code in your terminal:  
+>   a. npm i inquirer  
+>   b. npm i path  
+>   c. npm i fs  
+>   d. npm i jest
+>   e. npm i test
 >3. To run the test verifications, from the root directory enter 'npm run test'. 
   
 ## Usage
