@@ -6,7 +6,7 @@
 # template-engine-employee-summary
 
 ## Description
->A command-line tool that creates a readME.md file for this repository.
+>A command-line tool that creates a summary of employees.
   
 ## Table of Contents
 >1. [Title](#Title)
@@ -20,11 +20,14 @@
   
 ## Installation
 >1. Be sure you've installed npm (node project manager) and node.js on your system.  
->2. On your terminal command line, enter 'npm i inquirer'. This will ensure the correct node_module is installed. 
->3. To run the generator, enter 'node index.js' ... then just start answering the questions!   
+>2. On your terminal command line, enter 'npm i inquirer'. This will ensure the correct node_modules are installed. 
+>3. To run the test verifications, from the root directory enter 'npm run test'. 
   
 ## Usage
->Simply answer each question as they appear and press 'Enter' to proceed to the next question.<br/><br/>
+>Simply answer each question as they appear and press 'Enter' to proceed to the next question.<br/><br/>  
+>1. To run the employee summary generator, enter 'node app.js' ... then just start answering the questions!
+>2. To view the summary generator results, please navigate to the team.html file, right click, and select 'view in default browser', OR - follow the link here:  
+
 >![Usage Screenshot](img/generator1.png)  
 
 ## License
