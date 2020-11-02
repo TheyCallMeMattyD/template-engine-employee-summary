@@ -24,8 +24,8 @@
 >   a. npm i inquirer  
 >   b. npm i path  
 >   c. npm i fs  
->   d. npm i jest
->   e. npm i test
+>   d. npm i jest  
+>   e. npm i test  
 >3. To run the test verifications, from the root directory enter 'npm run test'. 
   
 ## Usage
