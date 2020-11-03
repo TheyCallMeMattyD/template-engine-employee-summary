@@ -46,6 +46,9 @@
 ## Tests
 >### Here's a screenshot GIF of the generator being executed:  
 >![screenShot](https://user-images.githubusercontent.com/66084799/97934962-3390ab00-1d45-11eb-8b9e-59592434f9b1.png)
+
+>### Here's a screenshot GIF of the test validations being executed.
+>
   
 ## Questions
 >Please direct all questions to:
