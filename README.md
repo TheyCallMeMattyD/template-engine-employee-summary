@@ -32,7 +32,9 @@
 >Simply answer each question as they appear and press 'Enter' to proceed to the next question.<br/><br/>  
 >1. To run the employee summary generator, enter 'node app.js' ... then just start answering the questions!
 >2. To view the summary generator results, please navigate to the team.html file, right click, and select 'view in default browser', OR - follow the link here:  
->https://theycallmemattyd.github.io/template-engine-employee-summary/output/team.html
+>https://theycallmemattyd.github.io/template-engine-employee-summary/output/team.html  
+>
+>![screenShot](https://user-images.githubusercontent.com/66084799/97936241-e6163d00-1d48-11eb-8af5-ae04a5a1b736.png)
 
 
 ## License
