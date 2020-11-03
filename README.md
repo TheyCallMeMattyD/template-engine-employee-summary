@@ -45,7 +45,7 @@
 
 ## Tests
 >### Here's a GIF of the generator being executed:  
-
+>![Screen-Recording-2020-11-02-at-8](https://user-images.githubusercontent.com/66084799/97936150-ae0efa00-1d48-11eb-9051-7ebc0536fd1a.gif)
 
 >### Here's a screenshot of the test validations being executed.
 >![tests](https://user-images.githubusercontent.com/66084799/97935135-a9951200-1d45-11eb-916e-0350a17d2765.png)  
