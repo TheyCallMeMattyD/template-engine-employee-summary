@@ -33,7 +33,7 @@
 >1. To run the employee summary generator, enter 'node app.js' ... then just start answering the questions!
 >2. To view the summary generator results, please navigate to the team.html file, right click, and select 'view in default browser', OR - follow the link here:  
 
->![Usage Screenshot](img/generator1.png)  
+
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -44,11 +44,11 @@
 >Please make sure to update tests as appropriate.
 
 ## Tests
->### Here's a screenshot GIF of the generator being executed:  
->![screenShot](https://user-images.githubusercontent.com/66084799/97934962-3390ab00-1d45-11eb-8b9e-59592434f9b1.png)
+>### Here's a screenshot of the generator being executed:  
 
->### Here's a screenshot GIF of the test validations being executed.
->
+
+>### Here's a screenshot of the test validations being executed.
+>![tests](https://user-images.githubusercontent.com/66084799/97935135-a9951200-1d45-11eb-916e-0350a17d2765.png)  
   
 ## Questions
 >Please direct all questions to:
