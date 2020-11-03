@@ -44,7 +44,7 @@
 >Please make sure to update tests as appropriate.
 
 ## Tests
->### Here's a screenshot of the generator being executed:  
+>### Here's a GIF of the generator being executed:  
 
 
 >### Here's a screenshot of the test validations being executed.
